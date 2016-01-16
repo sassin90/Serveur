@@ -1,0 +1,28 @@
+
+
+Projet realisé par ZORGOS:
+
+El boukhari El khamlichi Amine
+El medhoun Karimran
+Bouzid Yassin
+
+
+
+Guide d'utilisation:
+
+nb:ilfaudrait mieux se connecter autant que root
+
+Une fois dans ce dossier ,executer:
+make
+./zinetd 4444 zupload 80 zweb  4446 zpap// pour un lancement normal
+./zinetd -d 4444 zupload 80 zweb 4446 zpap// lancer comme demon
+
+sinon Aide : ./zinetd [-d] port service [port2 service2]  [port3 service3]
+
+pour le web service on utilise le navigateur : localhost
+
+pour le transfert du fichier ,ils seront transféré vers "Fichiers Trans" en executant le client
+
+./cltzUpload localhost 4444 'chemin du fichier a transferer'
+
+
